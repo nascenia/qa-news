@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#ffffff"
+    tools:context="com.example.roze.nasceniasqa.display">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginBottom="8dp"
+                android:text="Time"
+                android:id="@+id/textView_f1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:background="@drawable/push_msg"
+                android:text="New Text"
+                android:textIsSelectable="true"
+                android:id="@+id/tvdb_time" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginBottom="8dp"
+                android:text="Username"
+                android:id="@+id/textView_f2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:background="@drawable/push_msg"
+                android:text="New Text"
+                android:textIsSelectable="true"
+                android:id="@+id/tvdb_username" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginBottom="8dp"
+                android:text="Email"
+                android:id="@+id/textView_f3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:background="@drawable/push_msg"
+                android:text="New Text"
+                android:textIsSelectable="true"
+                android:id="@+id/tvdb_email" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginBottom="8dp"
+                android:text="Title"
+                android:id="@+id/textView_f4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:background="@drawable/push_msg"
+                android:text="New Text"
+                android:textIsSelectable="true"
+                android:id="@+id/tvdb_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginBottom="8dp"
+                android:text="URL"
+                android:id="@+id/textView_f5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="top"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/push_msg"
+                android:text="New Text"
+                android:textIsSelectable="true"
+                android:id="@+id/tvdb_url" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginBottom="8dp"
+                android:text="Details"
+                android:id="@+id/textView_f6" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/push_msg"
+                android:id="@+id/scrollView4" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+                    android:background="#ffffff"
+                    android:text="New Text"
+                    android:textIsSelectable="true"
+                    android:id="@+id/tvdb_details" />
+            </ScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

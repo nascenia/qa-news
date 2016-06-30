@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="250dp"
+    android:id="@+id/content_frame"
+    android:layout_gravity="center"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:background="#CC101010"
+        android:weightSum="1"
+        android:gravity="center">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="300dp"
+            android:gravity="center"
+            android:layout_height="200dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Are you want to Sing Out?"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:id="@+id/textView_e1" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="Ok"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/submit_btn"
+                android:layout_gravity="center"
+                android:id="@+id/button_ok_exit" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/layout_back4"
+            android:background="#CC000000">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="'Press here To stay'"
+                android:textColor="#ffffff"
+
+
+                android:id="@+id/textView_e2" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
+
+
+
+

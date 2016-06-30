@@ -1,0 +1,114 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="250dp"
+    android:id="@+id/content_frame"
+    android:layout_gravity="center"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:background="#CC101010"
+        android:weightSum="1"
+        android:gravity="center">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="300dp"
+            android:gravity="center_horizontal"
+            android:layout_height="200dp">
+
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:text="M"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_margin="15dp"
+                android:textSize="30dp"
+                android:background="@drawable/border_btn"
+                android:id="@+id/tvd_letter" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="User Name :"
+                    android:padding="5dp"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:id="@+id/textView_p1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:textColor="#FF8E52"
+                    android:textSize="18dp"
+                    android:padding="5dp"
+                    android:id="@+id/tvd_username" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email :"
+                    android:padding="5dp"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:id="@+id/textView_p2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:textColor="#FF8E52"
+                    android:textSize="18dp"
+                    android:padding="5dp"
+                    android:id="@+id/tvd_email" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/layout_back4"
+            android:background="#CC000000">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="'Press here To stay'"
+                android:textColor="#ffffff"
+
+
+                android:id="@+id/textView_p3" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
+
+
+
+
